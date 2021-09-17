@@ -1,0 +1,192 @@
+@mixin a_tag {
+    color: $menuItemColor;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border-bottom: 1.5px solid transparent;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: $hoverColor;
+        color: $hoverColor;
+    }
+}
+
+@mixin a_tag_btn {
+    display: inline-block;
+    background: $btnColor;
+    color: $menuItemColor;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid $btnColor;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: $btnColor;
+        background: none;
+    }
+}
+
+@mixin title {
+
+    .title:after,
+    .title:before {
+        content: "\00a0\00a0\00a0\00a0\00a0";
+        text-decoration: line-through;
+        color: $hoverColor;
+        margin: auto 0.5em;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 35px;
+        margin-top: 5%;
+        padding: 15px;
+    }
+}
+
+@mixin skills {
+    .cp {
+        animation: cp 2s;
+        width: 90%;
+    }
+
+    .node {
+        animation: node 2s;
+        width: 80%;
+    }
+
+    .react {
+        animation: react 2s;
+        width: 70%;
+    }
+
+    .java {
+        animation: java 2s;
+        width: 60%;
+    }
+
+    .php {
+        animation: php 2s;
+        width: 60%;
+    }
+
+    .sql {
+        animation: sql 2s;
+        width: 70%;
+    }
+
+    .mongodb {
+        animation: mongodb 2s;
+        width: 60%;
+    }
+
+    .htmlCss {
+        animation: htmlCss 2s;
+        width: 80%;
+    }
+
+    .app {
+        animation: app 2s;
+        width: 70%;
+    }
+}
+
+@mixin keyFrames {
+    @keyframes cp {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 90%;
+        }
+    }
+
+    @keyframes node {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 80%;
+        }
+    }
+
+    @keyframes react {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 70%;
+        }
+    }
+
+    @keyframes java {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 60%;
+        }
+    }
+
+    @keyframes php {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 60%;
+        }
+    }
+
+    @keyframes sql {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 70%;
+        }
+    }
+
+    @keyframes mongodb {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 60%;
+        }
+    }
+
+    @keyframes htmlCss {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 80%;
+        }
+    }
+
+    @keyframes app {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 70%;
+        }
+    }
+}
