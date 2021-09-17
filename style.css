@@ -136,6 +136,16 @@ input[type="checkbox"] {
   }
 }
 
+@media (max-width: 600px) {
+  nav .logo {
+    font-size: 28px;
+    margin-left: -20px;
+  }
+  nav .menu-btn i {
+    font-size: 28px;
+  }
+}
+
 .home {
   width: 100%;
   display: -webkit-box;
@@ -224,7 +234,23 @@ input[type="checkbox"] {
     font-size: 35px !important;
   }
   .home-content a {
-    font-size: 22px !important;
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .home .container .home-content .text-1 {
+    font-size: 20px !important;
+  }
+  .home .container .home-content .text-2 {
+    font-size: 35px !important;
+  }
+  .home .container .home-content .text-3 {
+    font-size: 30px !important;
+  }
+  .home .container .home-content a {
+    padding: 7px 15px !important;
+    font-size: 18px;
   }
 }
 
@@ -301,6 +327,19 @@ input[type="checkbox"] {
 @media (max-width: 680px) {
   h2 {
     margin-top: -15% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h2 {
+    padding: 0px;
+  }
+  .about .about-content .linkCenter {
+    text-align: center;
+  }
+  .about .about-content .linkCenter a {
+    padding: 7px 15px !important;
+    font-size: 18px;
   }
 }
 
@@ -452,7 +491,7 @@ input[type="checkbox"] {
   }
 }
 
-@media (max-width: 768px) and (min-width: 480px) {
+@media (max-width: 768px) {
   .card {
     width: calc(90% - 20px);
     margin: 10px auto;
@@ -481,6 +520,9 @@ input[type="checkbox"] {
 @media (max-width: 480px) {
   .card {
     width: calc(98% - 20px);
+  }
+  .myprojects h2 {
+    padding: 0px;
   }
 }
 
@@ -947,6 +989,21 @@ input[type="checkbox"] {
   .contact {
     padding: 100px 0 !important;
   }
+  .contact h2 {
+    padding: 0px;
+  }
+  .contact .content .left-side {
+    margin-left: 15%;
+  }
+  .contact .content .right-side .form {
+    text-align: center;
+  }
+  .contact .content .right-side .form .button {
+    margin-top: -8px;
+  }
+  .contact .content .right-side .form .button input {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1043,6 +1100,9 @@ input[type="checkbox"] {
   }
   .footer .line {
     margin-left: 42px;
+  }
+  .footer footer {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

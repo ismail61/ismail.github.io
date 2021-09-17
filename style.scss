@@ -116,6 +116,17 @@ input[type="checkbox"] {
     margin-left: 0px;
   }
 }
+@media (max-width : 600px) {
+  nav {
+    .logo{
+      font-size: 28px;
+      margin-left: -20px;
+    }
+    .menu-btn i{
+      font-size: 28px;
+    }
+  }
+}
 
 //home section start
 .home {
@@ -192,7 +203,31 @@ input[type="checkbox"] {
     }
 
     a {
-      font-size: 22px !important;
+      font-size: 20px !important;
+    }
+  }
+}
+@media (max-width : 600px) {
+  .home {
+    .container{
+      .home-content{
+        .text-1 {
+          font-size: 20px !important;
+        }
+    
+        .text-2 {
+          font-size: 35px !important;
+        }
+    
+        .text-3 {
+          font-size: 30px !important;
+        }
+    
+        a{
+          padding : 7px 15px !important;
+          font-size: 18px;
+        }
+      }  
     }
   }
 }
@@ -244,6 +279,23 @@ input[type="checkbox"] {
     margin-top: -15% !important;
   }
 }
+@media (max-width : 480px) {
+  .about{
+    h2{
+      padding: 0px;
+    }
+    .about-content{
+      .linkCenter{
+        text-align: center;
+        a{
+          padding : 7px 15px !important;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
 
 //Projects section
 .myprojects {
@@ -349,7 +401,7 @@ input[type="checkbox"] {
   }
 }
 
-@media (max-width: 768px) and (min-width: 480px) {
+@media (max-width: 768px) {
   .card {
     width: calc(90% - 20px);
     margin: 10px auto;
@@ -383,6 +435,11 @@ input[type="checkbox"] {
 @media (max-width: 480px) {
   .card {
     width: calc(98% - 20px);
+  }
+  .myprojects{
+    h2{
+      padding: 0px;
+    }
   }
 }
 
@@ -579,8 +636,28 @@ input[type="checkbox"] {
 @media (max-width : 680px) {
   .contact {
     padding: 100px 0 !important;
+    h2{
+      padding: 0px;
+    }
+    .content{
+      .left-side{
+        margin-left: 15%;
+      }
+      .right-side{
+        .form{
+          text-align: center;
+          .button{
+            margin-top: -8px;
+            input{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
   }
 }
+
 
 @media (max-width: 900px) {
   .contact {
@@ -651,6 +728,9 @@ input[type="checkbox"] {
 
     .line {
       margin-left: 42px;
+    }
+    footer{
+      font-size: 15px;
     }
   }
 }
