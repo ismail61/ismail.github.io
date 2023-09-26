@@ -60,22 +60,27 @@
 
     .node {
         animation: node 2s;
-        width: 80%;
+        width: 90%;
     }
 
     .react {
         animation: react 2s;
+        width: 80%;
+    }
+
+    .microservice {
+        animation: react 2s;
+        width: 80%;
+    }
+
+    .rabbitmqRedis {
+        animation: react 2s;
+        width: 80%;
+    }
+
+    .devops {
+        animation: react 2s;
         width: 70%;
-    }
-
-    .java {
-        animation: java 2s;
-        width: 60%;
-    }
-
-    .php {
-        animation: php 2s;
-        width: 60%;
     }
 
     .sql {
@@ -85,17 +90,12 @@
 
     .mongodb {
         animation: mongodb 2s;
-        width: 60%;
+        width: 90%;
     }
 
     .htmlCss {
         animation: htmlCss 2s;
         width: 80%;
-    }
-
-    .app {
-        animation: app 2s;
-        width: 70%;
     }
 }
 
@@ -116,7 +116,7 @@
         }
 
         to {
-            width: 80%;
+            width: 90%;
         }
     }
 
@@ -126,29 +126,40 @@
         }
 
         to {
+            width: 80%;
+        }
+    }
+
+    @keyframes microservice {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 80%;
+        }
+    }
+
+    @keyframes rabbitmqRedis {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 80%;
+        }
+    }
+
+    @keyframes devops {
+        from {
+            width: 0;
+        }
+
+        to {
             width: 70%;
         }
     }
 
-    @keyframes java {
-        from {
-            width: 0;
-        }
-
-        to {
-            width: 60%;
-        }
-    }
-
-    @keyframes php {
-        from {
-            width: 0;
-        }
-
-        to {
-            width: 60%;
-        }
-    }
 
     @keyframes sql {
         from {
@@ -166,7 +177,7 @@
         }
 
         to {
-            width: 60%;
+            width: 90%;
         }
     }
 
@@ -177,16 +188,6 @@
 
         to {
             width: 80%;
-        }
-    }
-
-    @keyframes app {
-        from {
-            width: 0;
-        }
-
-        to {
-            width: 70%;
         }
     }
 }
